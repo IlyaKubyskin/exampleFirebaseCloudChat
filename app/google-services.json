@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "42997134123",
+    "firebase_url": "https://chat2-e872a.firebaseio.com",
+    "project_id": "chat2-e872a",
+    "storage_bucket": "chat2-e872a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42997134123:android:20fbc952188a385e",
+        "android_client_info": {
+          "package_name": "com.example.kubik.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42997134123-12ppj6rrcdfj5k228kc0tmbdsphf9791.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kubik.chat",
+            "certificate_hash": "1bbba137e269e312da1b31c223ddfbb8fce8bb33"
+          }
+        },
+        {
+          "client_id": "42997134123-g1ugf1a4lgmbjkvvbsc2hplgar5pou1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEhazDUuvgNJohgGB2uGqUP2w4pfISIfY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42997134123-g1ugf1a4lgmbjkvvbsc2hplgar5pou1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
