@@ -106,12 +106,9 @@ public class ChatActivity extends AppCompatActivity {
     }
 
     private void logout(final Context context) {
-        AuthUI.getInstance().signOut(context).addOnSuccessListener(new OnSuccessListener<Void>() {
-            @Override
-            public void onSuccess(Void aVoid) {
-                startActivity(MainActivity.makeIntent(context));
-                finish();
-            }
+        AuthUI.getInstance().signOut(context).addOnSuccessListener(aVoid -> {
+            startActivity(MainActivity.makeIntent(context));
+            finish();
         });
     }
 
